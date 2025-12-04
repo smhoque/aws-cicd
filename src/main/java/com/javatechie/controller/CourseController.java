@@ -61,6 +61,7 @@ public class CourseController {
   //  public String healthCheck() {
    //     return "UP";
   //  }
+    // This is another block
 
 
     @GetMapping("/welcome")
