@@ -57,11 +57,11 @@ public class CourseController {
         }
     }
 
- //   @GetMapping("/health")
-  //  public String healthCheck() {
-   //     return "UP";
-  //  }
-    // This is another block
+    @GetMapping("/health")
+    public String healthCheck() {
+        return "UP";
+    }
+
 
 
     @GetMapping("/welcome")
